@@ -2,7 +2,7 @@
 import torch
 import numpy as np
 from ania.base_regularizer import BaseRegularizer
-from gen_norm import sample_gen_norm, log_pdf_gen_norm
+from ania.gen_norm import sample_gen_norm, log_pdf_gen_norm
 from ania.utils import map_torch, StateLess, get_direct_parent, flatten_torch, lexicographical_backward
 from ania.utils import device
 #pdf_gen_norm(torch.Tensor([0]).reshape((1,1)), 0.5,0.5)

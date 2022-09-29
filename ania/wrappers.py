@@ -3,7 +3,7 @@ from ania.base_regularizer import BaseRegularizer
 from ania.bernoulli import BernoulliReg
 from ania.noise_injection import NoiseInjection
 from ania.utils import get_direct_parent
-from criterion import make_criteria
+from ania.criterion import make_criteria
 
 def noise_injection(
         model, 
